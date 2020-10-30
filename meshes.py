@@ -10,13 +10,12 @@ def quad(n_repeats):
 
 
 def tet(n_repeats):
-    mesh = SquareMesh(n_repeats, n_repeats, 1) 
-    return ExtrudedMesh(mesh, n_repeats)
+    return CubeMesh(n_repeats, n_repeats, n_repeats, 1)
 
 
 def hex(n_repeats):
-    mesh = SquareMesh(n_repeats, n_repeats, 1, quadrilateral=True) 
-    return ExtrudedMesh(mesh, n_repeats)
+    mesh2d = make_quad(n_repeats)
+    return ExtrudedMesh(mesh2d, n_repeats)
 
 
 def to_pvd(mesh, fname):

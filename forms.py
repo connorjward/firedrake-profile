@@ -2,24 +2,18 @@ from firedrake import *
 from functools import reduce
 
 
-def mass(p, q, mesh, nf=0):
-    V = FunctionSpace(mesh, 'CG', p)
-    P = FunctionSpace(mesh, 'CG', q)
+def mass(mesh, degree):
+    V = FunctionSpace(mesh, 'CG', degree=degree)
     u = TrialFunction(V)
     v = TestFunction(V)
-    it = dot(v, u)
-    f = [Function(P).assign(1.0) for _ in range(nf)]
-    return reduce(inner, f + [it])*dx
+    return dot(u, v) * dx
 
 
-def helmholtz(p, q, mesh, nf=0):
-    V = FunctionSpace(mesh, "CG", degree=p)
-    P = FunctionSpace(mesh, "CG", degree=q)
+def helmholtz(mesh, degree):
+    V = FunctionSpace(mesh, "CG", degree=degree)
     u = TrialFunction(V)
     v = TestFunction(V)
-    f = [Function(P).assign(1.0) for _ in range(nf)]
-    it = dot(grad(v), grad(u)) + 1.0*v*u
-    return reduce(inner, f + [it])*dx
+    return (dot(grad(u), grad(v)) + u * v) * dx
 
 
 def poissonS(p, q, mesh, nf=0):
