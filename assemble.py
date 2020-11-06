@@ -1,32 +1,39 @@
-import matplotlib.pyplot as plt
-import pyop2.profiling
+"""
+Script that assembles a matrix.
+"""
+
+import argparse
+
 from firedrake import *
 
-from problem import Problem
+from form import make_form
+from mesh import make_mesh
 
 
-MESH_SIZE = 10
-MESH_TYPE = "quad"
+parser = argparse.ArgumentParser()
+parser.add_argument("--form", default="helmholtz", type=str)
+parser.add_argument("--mesh", default="tri", type=str,
+                    choices=["tri", "quad", "tet", "hex"])
+parser.add_argument("--mesh-size", default=10, type=int)
+parser.add_argument("--degree", default=1, type=int)
+parser.add_argument("--repeats", default=1, type=int)
+args = parser.parse_args()
 
-FORM_TYPE = "helmholtz"
-DEGREE = 1
+mesh = make_mesh(args.mesh, args.mesh_size)
+V = FunctionSpace(mesh, "CG", degree=args.degree)
 
-N_WARM_START_REPEATS = 1
-N_REPEATS = 5
+form = make_form(args.form, V)
 
+# Do a warm start and save the resulting tensor to prevent reallocation 
+# in future.
+out = assemble(form)
 
-problem = Problem(MESH_TYPE, MESH_SIZE, DEGREE, FORM_TYPE)
-
-# do warm starts
-for _ in range(N_WARM_START_REPEATS):
-    out = assemble(problem.form)
-
+# Do main run.
 PETSc.Log.begin()
-# do main run
-for _ in range(N_REPEATS):
+
+for _ in range(args.repeats):
     with PETSc.Log.Stage("assemble"):
-        assemble(problem.form, tensor=out)
+        assemble(form, tensor=out)
 
 # postprocessing
-#PETSc.Log.view()
-print("DoF: {}".format(problem.function_space.dof_count))
+PETSc.Log.view()

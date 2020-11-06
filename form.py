@@ -1,16 +1,21 @@
 from firedrake import *
 from functools import reduce
 
+def make_form(form_type, V):
+    if form_type == "mass":
+        return _mass(V)
+    if form_type == "helmholtz":
+        return _helmholtz(V)
+    raise AssertionError()
 
-def mass(mesh, degree):
-    V = FunctionSpace(mesh, 'CG', degree=degree)
+
+def _mass(V):
     u = TrialFunction(V)
     v = TestFunction(V)
     return dot(u, v) * dx
 
 
-def helmholtz(mesh, degree):
-    V = FunctionSpace(mesh, "CG", degree=degree)
+def _helmholtz(V):
     u = TrialFunction(V)
     v = TestFunction(V)
     return (dot(grad(u), grad(v)) + u * v) * dx
