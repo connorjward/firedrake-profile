@@ -45,11 +45,6 @@ for _ in range(args.repeats):
     with PETSc.Log.Stage("Assemble"):
         assemble(form, tensor=out)
 
-
-# postprocessing
-print("# cells: {}, DoF: {}".format(mesh.num_cells(), V.dof_count))
-
-
 # Save the log output to a file.
 PETSc.Log.view(PETSc.Viewer.ASCII(args.log_file))
 
@@ -57,7 +52,10 @@ PETSc.Log.view(PETSc.Viewer.ASCII(args.log_file))
 with open(args.meta_file, "a") as f:
     # Add a header if the file is empty.
     if f.tell() == 0:
-        f.write("filename,dof\n")
+        f.write("filename,form,mesh,mesh_size,degree,dof\n")
 
-    line = "{filename},{dof}\n".format(filename=args.log_file, dof=V.dof_count)
+    line = ("{filename},{form},{mesh},{mesh_size},{degree},{dof}\n"
+            .format(filename=args.log_file, form=args.form, mesh=args.mesh,
+                    mesh_size=args.mesh_size, degree=args.degree, 
+                    dof=V.dof_count))
     f.write(line)
