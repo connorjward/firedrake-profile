@@ -12,7 +12,9 @@ from mesh import make_mesh
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-o", dest="fout", default="assemble.log", type=str)
+parser.add_argument("-o", dest="log_file", default="log.txt", type=str)
+parser.add_argument("--meta", dest="meta_file", default="metadata.csv", 
+                    type=str, help="Location of the metadata file.")
 parser.add_argument("--form", default="helmholtz", type=str)
 parser.add_argument("--mesh", default="tri", type=str,
                     choices=["tri", "quad", "tet", "hex"])
@@ -46,4 +48,12 @@ for _ in range(args.repeats):
 
 # postprocessing
 print("# cells: {}, DoF: {}".format(mesh.num_cells(), V.dof_count))
-PETSc.Log.view(PETSc.Viewer.ASCII(args.fout))
+
+
+# Save the log output to a file.
+PETSc.Log.view(PETSc.Viewer.ASCII(args.log_file))
+
+# Save the metadata file, appending to the file if it already exists.
+with open(args.meta_file, "a") as f:
+    line = "{filename},{dof}\n".format(filename=args.log_file, dof=V.dof_count)
+    f.write(line)
