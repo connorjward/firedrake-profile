@@ -1,6 +1,7 @@
 """
 """
 
+import argparse
 import datetime
 import os
 import subprocess
@@ -8,17 +9,15 @@ import subprocess
 import numpy as np
 
 
-DATA_ROOT_DIR = "/home/connor/data/firedrake-profile"
-
-#FORM_TYPES = ["mass", "helmholtz"]
-#MESH_TYPES = ["tri", "quad", "tet", "hex"]
-#DEGREES = range(1, 4)
-#N_REPEATS = 5
-
 FORM_TYPES = ["mass", "helmholtz"]
-MESH_TYPES = ["tri", "tet"]
-DEGREES = range(1, 3)
-N_REPEATS = 10
+MESH_TYPES = ["tri", "quad", "tet", "hex"]
+DEGREES = range(1, 4)
+N_REPEATS = 5
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("base_dir", type=str)
+args = parser.parse_args()
 
 
 def get_mesh_sizes(mesh_type):
@@ -27,15 +26,13 @@ def get_mesh_sizes(mesh_type):
 
     # First the 2D case then the 3D one.
     if mesh_type in ["tri", "quad"]:
-        #return np.linspace(100, 750, 10, dtype=np.int)
-        return np.linspace(100, 250, 3, dtype=np.int)
+        return np.linspace(100, 750, 10, dtype=np.int)
     else:
-        #return np.linspace(20, 60, 10, dtype=np.int)
-        return np.linspace(20, 30, 3, dtype=np.int)
+        return np.linspace(20, 60, 10, dtype=np.int)
 
 
 # Store the results in a time-stamped directory.
-data_dir = (DATA_ROOT_DIR + "/" 
+data_dir = (args.base_dir + "/" 
             + datetime.datetime.now().isoformat(timespec="seconds") + "/")
 os.mkdir(data_dir)
 
