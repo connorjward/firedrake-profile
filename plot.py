@@ -23,8 +23,12 @@ args = parser.parse_args()
 df = pd.read_csv(args.metadata_file)
 
 for form_type in FORM_TYPES:
-    for mesh_type in MESH_TYPES:
-        for degree in DEGREES:
+    # Create the figure.
+    fig, axs = plt.subplots(len(MESH_TYPES), len(DEGREES), figsize=(10, 14))
+    fig.suptitle(form_type)
+
+    for i, mesh_type in enumerate(MESH_TYPES):
+        for j, degree in enumerate(DEGREES):
             # Filter the data.
             filtered_df = df[(df.form == form_type) 
                              & (df.mesh == mesh_type) 
@@ -37,10 +41,16 @@ for form_type in FORM_TYPES:
                 stages = logparser.parse_stages(log)
                 times.append(stages["Assemble"].group("time"))
 
-            fig, ax = plt.subplots()
+            ax = axs[i, j]
+
             ax.plot(filtered_df.dof, times)
             ax.scatter(filtered_df.dof, times, color="k", marker="x")
-            fig.tight_layout()
-            plt.savefig("{dir}/{form_type}_{mesh_type}_{degree}.png"
-                        .format(dir=args.output_dir, form_type=form_type, 
-                                mesh_type=mesh_type, degree=degree))
+
+            ax.set_title("mesh: {mesh}, degree: {degree}"
+                                .format(mesh=mesh_type, degree=degree))
+            ax.set_xlabel("DoF")
+            ax.set_ylabel("Time (s)")
+
+    fig.tight_layout()
+    plt.savefig("{dir}/{form_type}.png".format(dir=args.output_dir, 
+                                               form_type=form_type))
