@@ -55,5 +55,9 @@ PETSc.Log.view(PETSc.Viewer.ASCII(args.log_file))
 
 # Save the metadata file, appending to the file if it already exists.
 with open(args.meta_file, "a") as f:
+    # Add a header if the file is empty.
+    if f.tell() == 0:
+        f.write("filename,dof\n")
+
     line = "{filename},{dof}\n".format(filename=args.log_file, dof=V.dof_count)
     f.write(line)

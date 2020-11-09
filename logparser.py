@@ -20,5 +20,6 @@ def parse_stages(input_str):
                                percent=Pattern.percent))
         patterns.append(pattern)
 
-    return [match for match in re.finditer("".join(patterns), input_str)]
+    matches = re.finditer("".join(patterns), input_str)
+    return {match.group("name"): match for match in matches}
 

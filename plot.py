@@ -1,31 +1,20 @@
-import glob
-import re
-
 import matplotlib.pyplot as plt
+import pandas as pd
 
 import logparser
 
 
-FORM_TYPE = "mass"
-MESH_TYPE = "tri"
-DEGREE = 1
+META_FNAME = "/home/connor/data/firedrake-profile/metadata.csv"
 
-pattern = "{form}_{mesh}_{degree}_*.txt".format(form=FORM_TYPE, mesh=MESH_TYPE, degree=DEGREE)
+df = pd.read_csv(META_FNAME)
 
-filenames = glob.glob(pattern)
-
-dofs = []
 times = []
-
-for filename in filenames:
-    match = re.fullmatch(r"(\w+)_(\w+)_(\d+)_(?P<dof>\d+).txt", filename)
-    dofs.append(match.group("dof"))
-
+for filename in df.filename:
     with open(filename) as f:
         log = f.read()
     stages = logparser.parse_stages(log)
-    times.append(stages[-1].group("time"))
+    times.append(stages["Assemble"].group("time"))
 
-plt.plot(dofs, times)
-plt.scatter(dofs, times, color="k", marker="x")
-plt.savefig(pattern + ".png")
+plt.plot(df.dof, times)
+plt.scatter(df.dof, times, color="k", marker="x")
+plt.savefig("figure")
