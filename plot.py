@@ -5,16 +5,12 @@
 import argparse
 
 import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
-import numpy as np
 import pandas as pd
 
-import logparser
+from fireperf import logparser
 
 
-FORM_TYPES = ["mass", "helmholtz"]
-MESH_TYPES = ["tri", "quad", "tet", "hex"]
-DEGREES = range(1, 3)
+FIGSIZE = (12, 12)
 
 
 def plot_runtime(ax, dofs, times):
@@ -23,9 +19,10 @@ def plot_runtime(ax, dofs, times):
     ax.set_xscale("log")
     ax.set_yscale("log")
     ax.invert_xaxis()
+    ax.set_ylabel("Time (s)")
 
 
-def plot_speedup(ax, dof, times):
+def plot_efficiency(ax, dof, times):
     t_max = times[-1]
     speedups = [time / t_max for time in times]
 
@@ -34,25 +31,36 @@ def plot_speedup(ax, dof, times):
 
     ax.set_xscale("log")
     ax.invert_xaxis()
+    ax.set_ylabel("Parallel efficiency")
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("metadata_file", type=str, 
-                    help="Location of the metadata file.")
-parser.add_argument("--type", default="time", type=str, 
-                    choices=["time", "speedup"])
-parser.add_argument("--output-dir", default=".", type=str)
+parser.add_argument("--type", default="runtime", type=str, 
+                    choices=["runtime", "efficiency"])
+parser.add_argument("--data-dir", default=".", type=str,
+                    help="Location of the data files.")
+parser.add_argument("--output-dir", default=".", type=str,
+                    help="Location where the produced figures will be kept.")
 args = parser.parse_args()
 
-df = pd.read_csv(args.metadata_file)
+try:
+    df = pd.read_csv(f"{args.data_dir}/metadata.csv")
+except FileNotFoundError:
+    print("The metadata file could not be found. Make sure you specify the "
+          "correct data directory.")
+    exit(1)
 
-for form_type in FORM_TYPES:
+form_types = df.form.unique()
+mesh_types = df.mesh.unique()
+degrees = df.degree.unique()
+
+for form_type in form_types:
     # Create the figure.
-    fig, axs = plt.subplots(len(MESH_TYPES), len(DEGREES), figsize=(10, 14))
+    fig, axs = plt.subplots(len(mesh_types), len(degrees), figsize=FIGSIZE)
     fig.suptitle(form_type)
 
-    for i, mesh_type in enumerate(MESH_TYPES):
-        for j, degree in enumerate(DEGREES):
+    for i, mesh_type in enumerate(mesh_types):
+        for j, degree in enumerate(degrees):
             # Filter the data.
             filtered_df = df[(df.form == form_type) 
                              & (df.mesh == mesh_type) 
@@ -60,19 +68,17 @@ for form_type in FORM_TYPES:
 
             times = []
             for filename in filtered_df.filename:
-                with open(filename) as f:
+                with open(f"{args.data_dir}/{filename}") as f:
                     log = f.read()
                 stages = logparser.parse_stages(log)
                 times.append(float(stages["Assemble"].group("time")))
 
             ax = axs[i, j]
 
-            if args.type == "time":
+            if args.type == "runtime":
                 plot_runtime(ax, filtered_df.dof, times)
-                ax.set_ylabel("Time (s)")
-            elif args.type == "speedup":
-                plot_speedup(ax,filtered_df.dof, times)
-                ax.set_ylabel("S")
+            elif args.type == "efficiency":
+                plot_efficiency(ax,filtered_df.dof, times)
             else:
                 raise AssertionError()
 
@@ -81,5 +87,4 @@ for form_type in FORM_TYPES:
             ax.set_xlabel("DoF")
 
     fig.tight_layout()
-    plt.savefig("{dir}/{form_type}.png".format(dir=args.output_dir, 
-                                               form_type=form_type))
+    plt.savefig(f"{args.output_dir}/{form_type}.png")
