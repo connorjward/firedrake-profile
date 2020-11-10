@@ -5,6 +5,8 @@
 import argparse
 
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+import numpy as np
 import pandas as pd
 
 import logparser
@@ -14,9 +16,31 @@ FORM_TYPES = ["mass", "helmholtz"]
 MESH_TYPES = ["tri", "quad", "tet", "hex"]
 DEGREES = range(1, 3)
 
+
+def plot_runtime(ax, dofs, times):
+    ax.plot(dofs, times)
+    ax.scatter(dofs, times, color="k", marker="x")
+    ax.set_xscale("log")
+    ax.set_yscale("log")
+    ax.invert_xaxis()
+
+
+def plot_speedup(ax, dof, times):
+    t_max = times[-1]
+    speedups = [time / t_max for time in times]
+
+    ax.plot(dof, speedups)
+    ax.scatter(dof, speedups, color="k", marker="x")
+
+    ax.set_xscale("log")
+    ax.invert_xaxis()
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument("metadata_file", type=str, 
                     help="Location of the metadata file.")
+parser.add_argument("--type", default="time", type=str, 
+                    choices=["time", "speedup"])
 parser.add_argument("--output-dir", default=".", type=str)
 args = parser.parse_args()
 
@@ -39,17 +63,22 @@ for form_type in FORM_TYPES:
                 with open(filename) as f:
                     log = f.read()
                 stages = logparser.parse_stages(log)
-                times.append(stages["Assemble"].group("time"))
+                times.append(float(stages["Assemble"].group("time")))
 
             ax = axs[i, j]
 
-            ax.plot(filtered_df.dof, times)
-            ax.scatter(filtered_df.dof, times, color="k", marker="x")
+            if args.type == "time":
+                plot_runtime(ax, filtered_df.dof, times)
+                ax.set_ylabel("Time (s)")
+            elif args.type == "speedup":
+                plot_speedup(ax,filtered_df.dof, times)
+                ax.set_ylabel("S")
+            else:
+                raise AssertionError()
 
             ax.set_title("mesh: {mesh}, degree: {degree}"
                                 .format(mesh=mesh_type, degree=degree))
             ax.set_xlabel("DoF")
-            ax.set_ylabel("Time (s)")
 
     fig.tight_layout()
     plt.savefig("{dir}/{form_type}.png".format(dir=args.output_dir, 
