@@ -20,24 +20,24 @@ parser.add_argument("--mesh", default="tri", type=str,
 parser.add_argument("--mesh-size", default=10, type=int)
 parser.add_argument("--degree", default=1, type=int)
 parser.add_argument("--repeats", default=1, type=int)
+parser.add_argument("--use-action", action="store_true")
 args = parser.parse_args()
 
 # Enable PETSc logging.
 PETSc.Log.begin()
 
-with PETSc.Log.Stage("Make mesh"):
-    mesh = make_mesh(args.mesh, args.mesh_size)
+mesh = make_mesh(args.mesh, args.mesh_size)
+V = FunctionSpace(mesh, "CG", degree=args.degree)
 
-with PETSc.Log.Stage("Make function space"):
-    V = FunctionSpace(mesh, "CG", degree=args.degree)
-
-with PETSc.Log.Stage("Make form"):
+if args.use_action:
+    two_form = make_form(args.form, V)
+    form = action(two_form, Function(V))
+else:
     form = make_form(args.form, V)
 
 # Do a warm start and save the resulting tensor to prevent reallocation
 # in future.
-with PETSc.Log.Stage("Assemble (warm start)"):
-    out = assemble(form)
+out = assemble(form)
 
 # Do main run.
 for _ in range(args.repeats):
