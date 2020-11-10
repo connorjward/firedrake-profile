@@ -5,10 +5,9 @@ Script that assembles a matrix.
 import argparse
 
 from firedrake import *
-from firedrake.petsc import OptionsManager
 
-from form import make_form
-from mesh import make_mesh
+from fireperf.form import make_form
+from fireperf.mesh import make_mesh
 
 
 parser = argparse.ArgumentParser()
