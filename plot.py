@@ -7,31 +7,10 @@ import argparse
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from fireperf import logparser
+from fireperf import logparser, plotter
 
 
 FIGSIZE = (12, 12)
-
-
-def plot_runtime(ax, dofs, times):
-    ax.plot(dofs, times)
-    ax.scatter(dofs, times, color="k", marker="x")
-    ax.set_xscale("log")
-    ax.set_yscale("log")
-    ax.invert_xaxis()
-    ax.set_ylabel("Time (s)")
-
-
-def plot_efficiency(ax, dof, times):
-    t_max = times[-1]
-    speedups = [time / t_max for time in times]
-
-    ax.plot(dof, speedups)
-    ax.scatter(dof, speedups, color="k", marker="x")
-
-    ax.set_xscale("log")
-    ax.invert_xaxis()
-    ax.set_ylabel("Parallel efficiency")
 
 
 parser = argparse.ArgumentParser()
@@ -76,15 +55,14 @@ for form_type in form_types:
             ax = axs[i, j]
 
             if args.type == "runtime":
-                plot_runtime(ax, filtered_df.dof, times)
+                plotter.plot_runtime(ax, filtered_df.dof, times)
             elif args.type == "efficiency":
-                plot_efficiency(ax,filtered_df.dof, times)
+                plotter.plot_efficiency(ax,filtered_df.dof, times)
             else:
                 raise AssertionError()
 
             ax.set_title("mesh: {mesh}, degree: {degree}"
                                 .format(mesh=mesh_type, degree=degree))
-            ax.set_xlabel("DoF")
 
     fig.tight_layout()
     plt.savefig(f"{args.output_dir}/{form_type}.png")
