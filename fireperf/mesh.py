@@ -1,23 +1,28 @@
 from firedrake import *
 
 
-BASE_N_CELLS_MESH2D = 100
-BASE_N_CELLS_MESH3D = 20
+_MESHES_2D = ["tri", "quad"]
+_MESHES_3D = ["tet", "hex"]
+
+MESHES = _MESHES_2D + _MESHES_3D
 
 
-def make_mesh(mesh_type, refinement_factor):
-    if mesh_type in ["tri", "quad"]:
-        n_cells = BASE_N_CELLS_MESH2D * refinement_factor
-    else:
-        n_cells = BASE_N_CELLS_MESH3D * refinement_factor
-
+def make_mesh(mesh_type, mesh_size):
     if mesh_type == "tri":
-        return SquareMesh(n_cells, n_cells, 1)
+        return SquareMesh(*mesh_size, 1)
     if mesh_type == "quad":
-        return SquareMesh(n_cells, n_cells, 1, quadrilateral=True)
+        return SquareMesh(*mesh_size, 1, quadrilateral=True)
     if mesh_type == "tet":
-        return CubeMesh(n_cells, n_cells, n_cells, 1)
+        return CubeMesh(*mesh_size, 1)
     if mesh_type == "hex":
-        mesh2d = SquareMesh(n_cells, n_cells, 1, quadrilateral=True)
-        return ExtrudedMesh(mesh2d, n_cells)
+        mesh2d = SquareMesh(*mesh_size[:2], 1, quadrilateral=True)
+        return ExtrudedMesh(mesh2d, mesh_size[2])
     raise AssertionError()
+
+
+def is_2d(mesh_type):
+    return mesh_type in _MESHES_2D
+
+
+def is_3d(mesh_type):
+    return mesh_type in _MESHES_3D

@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 """
 Script that assembles a matrix.
 """
@@ -6,6 +8,7 @@ import argparse
 
 from firedrake import *
 
+import fireperf
 from fireperf.form import make_form
 from fireperf.mesh import make_mesh
 
@@ -17,14 +20,17 @@ parser.add_argument("--meta", dest="meta_file", default="metadata.csv",
 parser.add_argument("--form", default="helmholtz", type=str)
 parser.add_argument("--mesh", default="tri", type=str,
                     choices=["tri", "quad", "tet", "hex"])
-parser.add_argument("--mesh-refinement-level", default=1, type=int,
-                    help="The factor by which to refine the mesh.")
+parser.add_argument("--mesh-size", nargs="+", default=[10, 10])
 parser.add_argument("--degree", default=1, type=int)
 parser.add_argument("--repeats", default=1, type=int)
 parser.add_argument("--use-action", action="store_true")
 args = parser.parse_args()
 
-mesh = make_mesh(args.mesh, args.mesh_refinement_level)
+if ((fireperf.mesh.is_2d(args.mesh) and len(args.mesh_size) != 2)
+        or (fireperf.mesh.is_3d(args.mesh) and len(args.mesh_size) != 3)):
+    raise AssertionError()
+
+mesh = make_mesh(args.mesh, args.mesh_size)
 V = FunctionSpace(mesh, "CG", degree=args.degree)
 
 if args.use_action:
@@ -52,7 +58,7 @@ PETSc.Log.view(PETSc.Viewer.ASCII(args.log_file))
 with open(args.meta_file, "a") as f:
     # Add a header if the file is empty.
     if f.tell() == 0:
-        f.write("filename,form,mesh,mesh_refinement_level,degree,dof\n")
+        f.write("filename,form,mesh,degree,dof\n")
 
-    f.write(f"{args.log_file},{args.form},{args.mesh},{args.mesh_refinement_level},"
+    f.write(f"{args.log_file},{args.form},{args.mesh},"
             f"{args.degree},{V.dof_count}\n")
