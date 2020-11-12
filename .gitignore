@@ -1,2 +1,9 @@
 /.vscode/
+/*.code-workspace
+
+/venv/
+/*.egg-info/
 __pycache__/
+
+*.vtu
+*.pvd
