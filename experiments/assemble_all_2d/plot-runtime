@@ -1,0 +1,41 @@
+#! /usr/bin/env python
+
+"""Plot the results."""
+
+import itertools as it
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+import fireperf.plot
+from fireperf.log import LogParser
+
+
+df = pd.read_csv("metadata.csv")
+
+form_types = df.form.unique()
+mesh_types = df.mesh.unique()
+degrees = df.degree.unique()
+
+params = it.product(form_types, mesh_types, degrees)
+
+for form_type, mesh_type, degree in params:
+    print(f"{form_type} {mesh_type} {degree}")
+
+    filtered_df = df[(df.form == form_type) 
+                     & (df.mesh == mesh_type) 
+                     & (df.degree == degree)]
+
+    times = []
+    for fname in filtered_df.filename:
+        log = LogParser(f"{fname}")
+        stages = log.parse_stages()
+        times.append(float(stages["Assemble"].group("time")))
+
+    fig, ax = plt.subplots()
+
+    fireperf.plot.plot_runtime(ax, filtered_df.dof, times)
+    ax.set_title(f"form: {form_type}, mesh: {mesh_type}, degree: {degree}")
+
+    fig.tight_layout()
+    plt.savefig(f"{form_type}_{mesh_type}_{degree}.png")

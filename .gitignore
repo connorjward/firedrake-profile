@@ -7,3 +7,7 @@ __pycache__/
 
 *.vtu
 *.pvd
+
+/experiments/**/metadata.csv
+/experiments/**/*.png
+/experiments/**/*.txt

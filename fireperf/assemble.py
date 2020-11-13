@@ -35,3 +35,6 @@ def assemble_form(form_type, mesh_type, mesh_size, degree, use_action, repeats):
     for _ in range(repeats):
         with PETSc.Log.Stage("Assemble"):
             assemble(form, tensor=out)
+
+    # Return the number of DoF.
+    return V.dof_count

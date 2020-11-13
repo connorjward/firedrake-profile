@@ -1,10 +1,10 @@
 from firedrake import *
 
 
-_MESHES_2D = ["tri", "quad"]
-_MESHES_3D = ["tet", "hex"]
+MESH_TYPES_2D = ["tri", "quad"]
+MESH_TYPES_3D = ["tet", "hex"]
 
-MESHES = _MESHES_2D + _MESHES_3D
+MESH_TYPES = MESH_TYPES_2D + MESH_TYPES_3D
 
 
 def make_mesh(mesh_type, mesh_size):
@@ -21,8 +21,8 @@ def make_mesh(mesh_type, mesh_size):
 
 
 def is_2d(mesh_type):
-    return mesh_type in _MESHES_2D
+    return mesh_type in MESH_TYPES_2D
 
 
 def is_3d(mesh_type):
-    return mesh_type in _MESHES_3D
+    return mesh_type in MESH_TYPES_3D

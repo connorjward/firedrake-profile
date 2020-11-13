@@ -1,6 +1,10 @@
 from firedrake import *
 from functools import reduce
 
+
+FORM_TYPES = ["mass", "helmholtz"]
+
+
 def make_form(form_type, V):
     if form_type == "mass":
         return _mass(V)
