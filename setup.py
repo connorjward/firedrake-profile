@@ -6,4 +6,9 @@ setup(name="fireperf",
       description="Tools for profiling Firedrake performance",
       author="Connor Ward",
       author_email="c.ward20@imperial.ac.uk",
-      packages=["fireperf"])
+      packages=["fireperf"],
+      entry_points={
+            "console_scripts": [
+                  "assemble-form = fireperf.scripts:assemble_form"
+            ]
+      })
