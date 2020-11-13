@@ -5,33 +5,36 @@ import itertools as it
 import numpy as np
 
 import fireperf.assemble
+import fireperf.form
+import fireperf.mesh
 import fireperf.log
 
 
 FORM_TYPES = fireperf.form.FORM_TYPES
 MESH_TYPES = fireperf.mesh.MESH_TYPES_2D
-MESH_SIZES_1D = np.logspace(2, 11, 15, base=2, dtype=np.int)
-DEGREES = range(1, 4)
+MESH_SIZES_1D = np.logspace(2, 13, 15, base=2, dtype=np.int)
+DEGREE = 1
 USE_ACTION = False
 REPEATS = 5
 
 
 # Do a warm start.
-fireperf.assemble.assemble_form("helmholtz", "tri", (2**8, 2**8), 1, False, 5)
+for _ in range(3):
+    fireperf.assemble.assemble_form("helmholtz", "tri", (256, 256), 1, False, 5)
 
 # Do the main run.
 mesh_sizes = zip(MESH_SIZES_1D, MESH_SIZES_1D)
-params = it.product(FORM_TYPES, MESH_TYPES, mesh_sizes, DEGREES)
+params = it.product(FORM_TYPES, MESH_TYPES, mesh_sizes)
 
-for form_type, mesh_type, mesh_size, degree in params:
-    print(f"{form_type} {mesh_type} {mesh_size} {degree}")
+for form_type, mesh_type, mesh_size in params:
+    print(f"{form_type} {mesh_type} {mesh_size}")
 
     dof = fireperf.assemble.assemble_form(form_type, mesh_type, mesh_size, 
-                                          degree, USE_ACTION, REPEATS)
+                                          DEGREE, USE_ACTION, REPEATS)
 
-    log_fname = f"{form_type}_{mesh_type}_{degree}_{dof}.txt"
+    log_fname = f"{form_type}_{mesh_type}_{dof}.txt"
     meta_fname = "metadata.csv"
 
     fireperf.log.write(log_fname)
     fireperf.log.write_metadata(meta_fname, log_fname, form_type, mesh_type,
-                                degree, dof)
+                                DEGREE, dof)

@@ -5,6 +5,7 @@
 import re
 
 from firedrake.petsc import PETSc
+from mpi4py import MPI
 
 
 class Pattern:
@@ -46,7 +47,9 @@ def write_metadata(meta_fname, log_fname, form_type, mesh_type, degree, dof):
     with open(meta_fname, "a") as f:
         # Add a header if the file is empty.
         if f.tell() == 0:
-            f.write("filename,form,mesh,degree,dof\n")
+            f.write("filename,np,form,mesh,degree,dof\n")
 
-        f.write(f"{log_fname},{form_type},{mesh_type},{degree},{dof}\n")
+        np = MPI.COMM_WORLD.Get_size()
+
+        f.write(f"{log_fname},{np},{form_type},{mesh_type},{degree},{dof}\n")
 

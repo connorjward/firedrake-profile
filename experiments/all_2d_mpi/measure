@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+for np in {1..24}
+do
+    mpirun -np $np --bind-to hwthread python ../measure.py
+done

@@ -1,6 +1,7 @@
 /.vscode/
 /*.code-workspace
 
+/firedrake/
 /venv/
 /*.egg-info/
 __pycache__/
