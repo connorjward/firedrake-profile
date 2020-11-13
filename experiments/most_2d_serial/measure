@@ -11,7 +11,7 @@ import fireperf.mesh
 
 FORM_TYPES = fireperf.form.FORM_TYPES
 MESH_TYPES = fireperf.mesh.MESH_TYPES_2D
-MESH_SIZES = np.logspace(2, 12, 20, base=2, dtype=np.int)
+MESH_SIZES = np.logspace(2, 8, 15, base=2, dtype=np.int)
 DEGREES = range(1, 4)
 REPEATS = 5
 METADATA_FNAME = "metadata.csv"

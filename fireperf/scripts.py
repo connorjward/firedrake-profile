@@ -37,6 +37,9 @@ def assemble_form():
     # in future.
     out = assemble(form)
 
+    # Start profiling.
+    PETSc.Log.begin()
+
     # Do main run.
     for _ in range(args.repeats):
         with PETSc.Log.Stage("Assemble"):

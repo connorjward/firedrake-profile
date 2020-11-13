@@ -1,6 +1,29 @@
-#! /usr/bin/env bash
+#! /usr/bin/env python
 
-for np in {1..24}
-do
-    mpirun -np $np --bind-to hwthread python ../measure.py
-done
+import itertools as it
+import subprocess
+
+import fireperf.form
+import fireperf.mesh
+
+
+N_CORESS = range(1, 33)
+FORM_TYPES = fireperf.form.FORM_TYPES
+MESH_TYPES = fireperf.mesh.MESH_TYPES_2D
+MESH_SIZE = 4096
+DEGREES = range(1, 4)
+REPEATS = 5
+METADATA_FNAME = "metadata.csv"
+
+
+params = it.product(N_CORESS, FORM_TYPES, MESH_TYPES, DEGREES)
+
+for n_cores, form_type, mesh_type, degree in params:
+    log_fname = f"{n_cores}_{form_type}_{mesh_type}_{degree}.txt"
+
+    cmd = ["mpirun", "-np", str(n_cores), "--bind-to", "hwthread", 
+           "assemble-form", form_type, mesh_type, str(MESH_SIZE), str(degree),
+           str(REPEATS), log_fname, METADATA_FNAME]
+
+    print(" ".join(cmd))
+    subprocess.run(cmd)
