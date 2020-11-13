@@ -15,11 +15,10 @@ df = pd.read_csv("metadata.csv")
 
 form_types = df.form.unique()
 mesh_types = df.mesh.unique()
-degrees = df.degree.unique()
 
 params = it.product(form_types, mesh_types, degrees)
 
-for form_type, mesh_type, degree in params:
+for form_type, mesh_type in params:
     print(f"{form_type} {mesh_type} {degree}")
 
     filtered_df = df[(df.form == form_type) 

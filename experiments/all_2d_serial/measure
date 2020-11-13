@@ -2,6 +2,7 @@
 
 import itertools as it
 
+from firedrake.petsc import PETSc
 import numpy as np
 
 import fireperf.assemble
@@ -12,10 +13,12 @@ import fireperf.log
 
 FORM_TYPES = fireperf.form.FORM_TYPES
 MESH_TYPES = fireperf.mesh.MESH_TYPES_2D
-MESH_SIZES_1D = np.logspace(2, 13, 15, base=2, dtype=np.int)
+MESH_SIZES_1D = np.logspace(2, 12, 15, base=2, dtype=np.int)
 DEGREE = 1
 USE_ACTION = False
 REPEATS = 5
+
+PETSc.Log.begin()
 
 
 # Do a warm start.
@@ -27,14 +30,17 @@ mesh_sizes = zip(MESH_SIZES_1D, MESH_SIZES_1D)
 params = it.product(FORM_TYPES, MESH_TYPES, mesh_sizes)
 
 for form_type, mesh_type, mesh_size in params:
-    print(f"{form_type} {mesh_type} {mesh_size}")
+    stage = f"{form_type} {mesh_type} {mesh_size}" 
 
-    dof = fireperf.assemble.assemble_form(form_type, mesh_type, mesh_size, 
-                                          DEGREE, USE_ACTION, REPEATS)
+    print(stage)
+
+    with PETSc.Log.Stage(stage):
+        dof = fireperf.assemble.assemble_form(form_type, mesh_type, mesh_size, 
+                                            DEGREE, USE_ACTION, REPEATS)
 
     log_fname = f"{form_type}_{mesh_type}_{dof}.txt"
     meta_fname = "metadata.csv"
 
-    fireperf.log.write(log_fname)
-    fireperf.log.write_metadata(meta_fname, log_fname, form_type, mesh_type,
+fireperf.log.write(log_fname)
+fireperf.log.write_metadata(meta_fname, log_fname, form_type, mesh_type,
                                 DEGREE, dof)
