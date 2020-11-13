@@ -1,0 +1,20 @@
+#! /usr/bin/env python
+
+import argparse
+
+from fireperf import log
+from fireperf.assemble import assemble_form
+
+
+FORM_TYPE = "helmholtz"
+MESH_TYPE = "tri"
+MESH_SIZE = (100, 100)
+DEGREE = 1
+USE_ACTION = False
+REPEATS = 5
+
+LOG_FNAME = "log.txt"
+
+
+assemble_form(FORM_TYPE, MESH_TYPE, MESH_SIZE, DEGREE, USE_ACTION, REPEATS)
+log.write(LOG_FNAME)

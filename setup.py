@@ -1,5 +1,4 @@
-from distutils.core import setup
-from glob import glob
+from setuptools import setup
 
 
 setup(name="fireperf",
@@ -7,5 +6,4 @@ setup(name="fireperf",
       description="Tools for profiling Firedrake performance",
       author="Connor Ward",
       author_email="c.ward20@imperial.ac.uk",
-      packages=["fireperf"],
-      scripts=glob("scripts/*"))
+      packages=["fireperf"])
