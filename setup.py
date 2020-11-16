@@ -9,6 +9,8 @@ setup(name="fireperf",
       packages=["fireperf"],
       entry_points={
             "console_scripts": [
-                  "assemble-form = fireperf.scripts:assemble_form"
+                  "assemble-form = fireperf.scripts:assemble_form",
+                  "plot-runtime = fireperf.scripts:plot_runtime",
+                  "plot-throughput = fireperf.scripts:plot_throughput",
             ]
       })

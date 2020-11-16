@@ -19,6 +19,8 @@ class LogParser:
         with open(fname) as f:
             self._text = f.read()
 
+        self._stages = []
+
 
     def parse_stages(self):
         """
@@ -35,7 +37,24 @@ class LogParser:
             patterns.append(pattern)
 
         matches = re.finditer("".join(patterns), self._text)
-        return {match.group("name"): match for match in matches}
+
+        self._stages = [match.groupdict() for match in matches]
+
+    
+    def get_stage_time(self, stage_name):
+        for stage in self._stages:
+            if stage["name"] == stage_name:
+                return float(stage["time"])
+        raise KeyError
+
+
+def parse_stage_times(stage_name, fnames):
+    times = []
+    for fname in fnames:
+        parser = LogParser(fname)
+        parser.parse_stages()
+        times.append(parser.get_stage_time(stage_name))
+    return times
 
 
 def write(fname):

@@ -10,8 +10,8 @@ import fireperf.mesh
 N_CORESS = range(1, 33)
 FORM_TYPES = fireperf.form.FORM_TYPES
 MESH_TYPES = fireperf.mesh.MESH_TYPES_2D
-MESH_SIZE = 4096
-DEGREES = range(1, 4)
+MESH_SIZE = 512
+DEGREES = [1]
 REPEATS = 5
 METADATA_FNAME = "metadata.csv"
 
