@@ -50,7 +50,7 @@ def assemble_form():
             assemble(form, tensor=out)
 
     # Save the output if rank 0.
-    if MPI.COMM_WORLD.Get_size() == 0:
+    if MPI.COMM_WORLD.Get_rank() == 0:
         fireperf.log.write(args.log_fname)
         fireperf.log.write_metadata(args.metadata_fname, args.log_fname,
                                     args.form_type, args.mesh_type, args.degree,
