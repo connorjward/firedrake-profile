@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from firedrake import *
 from firedrake.petsc import PETSc
-from mpi4py import MPI
 
 import fireperf.form
 import fireperf.log
@@ -28,6 +27,7 @@ def assemble_form():
         parser.add_argument("--use-action", action="store_true")
         return parser.parse_args()
 
+
     args = parse_args()
 
     m = fireperf.mesh.make_mesh(args.mesh_type, args.mesh_size)
@@ -49,12 +49,11 @@ def assemble_form():
         with PETSc.Log.Stage("Assemble"):
             assemble(form, tensor=out)
 
-    # Save the output if rank 0.
-    if MPI.COMM_WORLD.Get_rank() == 0:
-        fireperf.log.write(args.log_fname)
-        fireperf.log.write_metadata(args.metadata_fname, args.log_fname,
-                                    args.form_type, args.mesh_type, args.degree,
-                                    V.dof_count)
+    # Save the output.
+    fireperf.log.write(args.log_fname)
+    fireperf.log.write_metadata(args.metadata_fname, args.log_fname,
+                                args.form_type, args.mesh_type, args.degree,
+                                V.dof_count)
 
 
 def plot_runtime():
