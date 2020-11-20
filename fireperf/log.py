@@ -62,15 +62,15 @@ def write(fname):
 
 
 def write_metadata(meta_fname, log_fname, form_type, mesh_type, degree, dof):
-    # Only save the output if rank 0.
-    if MPI.COMM_WORLD.Get_rank() != 0:
-        return
+    np = MPI.COMM_WORLD.Get_size()
+    mean_dof = MPI.COMM_WORLD.allreduce(dof) / np
 
-    with open(meta_fname, "a") as f:
-        # Add a header if the file is empty.
-        if f.tell() == 0:
-            f.write("filename,np,form,mesh,degree,dof\n")
+    if MPI.COMM_WORLD.Get_rank() == 0:
+        with open(meta_fname, "a") as f:
+            # Add a header if the file is empty.
+            if f.tell() == 0:
+                f.write("filename,mpi_size,form,mesh,degree,dof\n")
 
-        f.write(f"{log_fname},{MPI.COMM_WORLD.Get_size()},{form_type},"
-                f"{mesh_type},{degree},{dof}\n")
+            f.write(f"{log_fname},{np},{form_type},"
+                    f"{mesh_type},{degree},{mean_dof}\n")
 

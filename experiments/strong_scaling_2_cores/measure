@@ -1,0 +1,16 @@
+#! /usr/bin/env python
+
+import numpy as np
+
+from fireperf import experiments
+
+
+N_CORES = 2
+MESH_SIZES = np.logspace(3, 10, 10, base=2, dtype=np.int)
+
+
+args = experiments.parse_args()
+experiments.do_warm_start(True)
+
+for mesh_size in MESH_SIZES:
+    experiments.do_experiment(mesh_size=mesh_size, cwd=args.output_dir, np=N_CORES)

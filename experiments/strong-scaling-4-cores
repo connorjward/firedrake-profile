@@ -1,0 +1,29 @@
+#! /usr/bin/env python
+
+import itertools as it
+import subprocess
+
+import numpy as np
+
+import fireperf.form
+import fireperf.mesh
+
+
+N_CORES = 4
+FORM_TYPE = "helmholtz"
+MESH_TYPE = "tri"
+MESH_SIZES = np.logspace(5, 11, 20, base=2, dtype=np.int)
+DEGREE = 1
+REPEATS = 5
+METADATA_FNAME = "metadata.csv"
+
+
+for mesh_size in MESH_SIZES:
+    log_fname = f"{mesh_size}.txt"
+
+    cmd = ["mpirun", "-np", str(N_CORES), "--bind-to", "hwthread", 
+           "assemble-form", FORM_TYPE, MESH_TYPE, str(mesh_size), str(DEGREE),
+           str(REPEATS), log_fname, METADATA_FNAME]
+
+    print(" ".join(cmd))
+    subprocess.run(cmd)
