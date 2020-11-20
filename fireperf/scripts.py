@@ -1,5 +1,4 @@
 import argparse
-import itertools as it
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -15,6 +14,8 @@ def assemble_form():
 
     def parse_args():
         parser = argparse.ArgumentParser()
+        parser.add_argument("output_fname", type=str)
+        parser.add_argument("metadata_fname", type=str)
         parser.add_argument("form_type", type=str, 
                             choices=fireperf.form.FORM_TYPES)
         parser.add_argument("mesh_type", type=str, 
@@ -22,8 +23,6 @@ def assemble_form():
         parser.add_argument("mesh_size", type=int)
         parser.add_argument("degree", type=int)
         parser.add_argument("repeats", type=int)
-        parser.add_argument("log_fname", type=str)
-        parser.add_argument("metadata_fname", type=str)
         parser.add_argument("--use-action", action="store_true")
         return parser.parse_args()
 

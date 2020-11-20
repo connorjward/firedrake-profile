@@ -1,8 +1,0 @@
-#! /usr/bin/env python
-
-from fireperf import plot
-
-
-args = plot.parse_args()
-
-plot.plot_runtime_vs_dof(args.output_file, metadata_fname=args.metadata_file, set_xlog=True)
