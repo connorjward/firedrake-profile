@@ -12,21 +12,19 @@ DEFAULTS = {
     "form type": "helmholtz",
     "mesh type": "tri",
     "degree": 1,
-    "metadata file": "metadata.csv"
 }
 
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-o", "--output-dir", type=str, default=".")
+    parser.add_argument("output_dir", type=str)
     return parser.parse_args()
 
 
 def parse_plotting_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-o", "--output-dir", type=str, default=".")
-    parser.add_argument("-m", "--metadata-fname", type=str, 
-                        default=DEFAULTS["metadata file"])
+    parser.add_argument("metadata_filename", type=str)
+    parser.add_argument("output_dir", type=str)
     return parser.parse_args()
 
 
@@ -47,8 +45,8 @@ def do_experiment(*, form_type="helmholtz", mesh_type="tri", mesh_size=128,
                                               dir=cwd, delete=False)
         log_fname = logfile.name
 
-    cmd = ["assemble-form", form_type, mesh_type, str(mesh_size), str(degree),
-           str(repeats), log_fname, metadata_fname]
+    cmd = ["assemble-form", log_fname, metadata_fname, form_type, mesh_type, str(mesh_size), str(degree),
+           str(repeats)]
 
     if n_cores > 1:
         cmd = ["mpirun", "-np", str(n_cores), "--bind-to", "hwthread"] + cmd

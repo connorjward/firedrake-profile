@@ -49,7 +49,7 @@ def assemble_form():
             assemble(form, tensor=out)
 
     # Save the output.
-    fireperf.log.write(args.log_fname)
-    fireperf.log.write_metadata(args.metadata_fname, args.log_fname,
+    fireperf.log.write(args.output_fname)
+    fireperf.log.write_metadata(args.metadata_fname, args.output_fname,
                                 args.form_type, args.mesh_type, args.degree,
                                 V.dof_count)

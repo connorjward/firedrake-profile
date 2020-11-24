@@ -13,4 +13,4 @@ args = experiments.parse_args()
 experiments.do_warm_start(True)
 
 for mesh_size in MESH_SIZES:
-    experiments.do_experiment(mesh_size=mesh_size, cwd=args.output_dir, np=N_CORES)
+    experiments.do_experiment(mesh_size=mesh_size, cwd=args.output_dir, n_cores=N_CORES)
