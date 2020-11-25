@@ -1,0 +1,14 @@
+#! /usr/bin/env python
+
+from fireperf import experiments
+
+
+N_CORESS = range(2, 33, 2)
+MESH_SIZE = 2048
+
+args = experiments.parse_args()
+experiments.do_warm_start(True, use_action=True)
+
+for n_cores in N_CORESS:
+    experiments.do_experiment(mesh_size=MESH_SIZE, cwd=args.output_dir, 
+                              n_cores=n_cores, use_action=True)
