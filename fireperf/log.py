@@ -62,15 +62,15 @@ def write(fname):
 
 
 def write_metadata(meta_fname, log_fname, form_type, mesh_type, degree, dof):
-    np = MPI.COMM_WORLD.Get_size()
+    n_cores = MPI.COMM_WORLD.Get_size()
     total_dof = MPI.COMM_WORLD.allreduce(dof)
 
     if MPI.COMM_WORLD.Get_rank() == 0:
         with open(meta_fname, "a") as f:
             # Add a header if the file is empty.
             if f.tell() == 0:
-                f.write("filename,mpi_size,form,mesh,degree,dof\n")
+                f.write("filename,n_cores,form,mesh,degree,dof\n")
 
-            f.write(f"{log_fname},{np},{form_type},"
+            f.write(f"{log_fname},{n_cores},{form_type},"
                     f"{mesh_type},{degree},{total_dof}\n")
 
