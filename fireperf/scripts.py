@@ -43,10 +43,23 @@ def assemble_form():
     # Start profiling.
     PETSc.Log.begin()
 
+    # cprof
+    import cProfile, pstats, io
+    pr = cProfile.Profile()
+    pr.enable()
+
     # Do main run.
     for _ in range(args.repeats):
         with PETSc.Log.Stage("Assemble"):
             assemble(form, tensor=out)
+
+    # more cprof
+    pr.disable()
+    s = io.StringIO()
+    sortby = 'cumulative'
+    ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
+    ps.print_stats(20)
+    print(s.getvalue())
 
     # Save the output.
     fireperf.log.write(args.output_fname)
