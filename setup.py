@@ -7,9 +7,4 @@ setup(name="fireperf",
       author="Connor Ward",
       author_email="c.ward20@imperial.ac.uk",
       packages=["fireperf"],
-      install_requires=["pandas"],
-      entry_points={
-            "console_scripts": [
-                  "assemble-form = fireperf.scripts:assemble_form",
-            ]
-      })
+      install_requires=["pandas"])

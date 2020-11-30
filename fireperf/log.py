@@ -56,8 +56,3 @@ def parse_stage_times(stage_name, fnames):
         parser.parse_stages()
         times.append(parser.get_stage_time(stage_name))
     return times
-
-
-def write(fname):
-    PETSc.Log.view(PETSc.Viewer.ASCII(fname))
-
