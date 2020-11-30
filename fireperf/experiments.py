@@ -36,7 +36,7 @@ def do_warm_start(with_mpi=False, *, use_action=False):
 
 
 def do_experiment(*, form_type="helmholtz", mesh_type="tri", mesh_size=128, 
-                  degree=1, repeats=5, log_fname=None, 
+                  degree=1, repeats=20, log_fname=None, 
                   metadata_fname="metadata.csv", cwd=".", n_cores=1, use_action=False):
     # If log_fname is not specified then create a randomly named file in the 
     # current directory.
