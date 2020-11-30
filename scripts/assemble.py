@@ -23,6 +23,9 @@ def assemble_form():
     if args.use_action:
         form = action(form, Function(V))
 
+    if args.verbose:
+        PETSc.Sys.Print(f"DoF: {V.dim()}")
+
     # Do a warm start and save the resulting tensor to prevent reallocation
     # in future.
     out = assemble(form)
@@ -36,7 +39,6 @@ def assemble_form():
                 assemble(form, tensor=out)
 
         PETSc.Log.view(PETSc.Viewer.ASCII(args.fout))
-
     elif args.profiler == "cprofile":
         pr = cProfile.Profile()
         pr.enable()
@@ -46,6 +48,8 @@ def assemble_form():
 
         pr.disable()
         pstats.Stats(pr).dump_stats(args.fout)
+    else:
+        raise AssertionError
 
 
 def _parse_args():
@@ -58,6 +62,7 @@ def _parse_args():
     parser.add_argument("degree", type=int)
     parser.add_argument("repeats", type=int)
     parser.add_argument("-o", dest="fout", type=str, default="assemble.out")
+    parser.add_argument("-v", dest="verbose", action="store_true")
     parser.add_argument("--use-action", action="store_true")
     parser.add_argument("--profiler", type=str, default="petsc",
                         choices=["petsc", "cprofile"])
