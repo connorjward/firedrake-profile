@@ -2,12 +2,13 @@ import argparse
 
 import matplotlib.pyplot as plt
 import pandas as pd
+
 from firedrake import *
 from firedrake.petsc import PETSc
-
 import fireperf.form
 import fireperf.log
 import fireperf.mesh
+from fireperf import metadata
 
 
 def assemble_form():
@@ -44,9 +45,9 @@ def assemble_form():
     PETSc.Log.begin()
 
     # cprof
-    import cProfile, pstats, io
-    pr = cProfile.Profile()
-    pr.enable()
+    #import cProfile, pstats, io
+    #pr = cProfile.Profile()
+    #pr.enable()
 
     # Do main run.
     for _ in range(args.repeats):
@@ -54,15 +55,16 @@ def assemble_form():
             assemble(form, tensor=out)
 
     # more cprof
-    pr.disable()
-    s = io.StringIO()
-    sortby = 'cumulative'
-    ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
-    ps.print_stats(20)
-    print(s.getvalue())
+    #pr.disable()
+    #s = io.StringIO()
+    #sortby = 'tottime'
+    #ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
+    #ps.print_stats(20)
+    #print(s.getvalue())
 
     # Save the output.
     fireperf.log.write(args.output_fname)
-    fireperf.log.write_metadata(args.metadata_fname, args.output_fname,
-                                args.form_type, args.mesh_type, args.degree,
-                                V.dof_count)
+
+    row = metadata.Row(args.output_fname, args.form_type, args.mesh_type, 
+                       args.degree, V.dim())
+    metadata.write(args.metadata_fname, row)

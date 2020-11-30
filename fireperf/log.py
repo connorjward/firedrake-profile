@@ -61,16 +61,3 @@ def parse_stage_times(stage_name, fnames):
 def write(fname):
     PETSc.Log.view(PETSc.Viewer.ASCII(fname))
 
-
-def write_metadata(meta_fname, log_fname, form_type, mesh_type, degree, dof):
-    n_cores = COMM_WORLD.Get_size()
-    total_dof = COMM_WORLD.allreduce(dof)
-
-    if COMM_WORLD.Get_rank() == 0:
-        with open(meta_fname, "a") as f:
-            # Add a header if the file is empty.
-            if f.tell() == 0:
-                f.write("filename,n_cores,form,mesh,degree,dof\n")
-
-            f.write(f"{log_fname},{n_cores},{form_type},"
-                    f"{mesh_type},{degree},{total_dof}\n")
