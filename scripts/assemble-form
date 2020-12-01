@@ -1,0 +1,89 @@
+#! /usr/bin/env python
+
+import argparse
+import cProfile
+import pstats
+
+import pandas as pd
+
+from firedrake import *
+from firedrake.petsc import PETSc
+import fireperf.form
+import fireperf.mesh
+from fireperf.logparser import PETScLogParser
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("form_type", type=str,
+                        choices=fireperf.form.FORM_TYPES)
+    parser.add_argument("mesh_type", type=str,
+                        choices=fireperf.mesh.MESH_TYPES)
+    parser.add_argument("mesh_size", type=int)
+    parser.add_argument("degree", type=int)
+    parser.add_argument("repeats", type=int)
+    parser.add_argument("-o1", dest="fout", type=str, default="assemble.csv")
+    parser.add_argument("-o2", dest="fprof", type=str, default="assemble.out")
+    parser.add_argument("-v", dest="verbose", action="store_true")
+    parser.add_argument("--use-action", action="store_true")
+    parser.add_argument("--profiler", type=str, default="petsc",
+                        choices=["petsc", "cprofile"])
+    return parser.parse_args()
+
+
+def assemble_form(args):
+    m = fireperf.mesh.make_mesh(args.mesh_type, args.mesh_size)
+    V = FunctionSpace(m, "CG", degree=args.degree)
+    form = fireperf.form.make_form(args.form_type, V)
+
+    if args.use_action:
+        form = action(form, Function(V))
+
+    if args.verbose:
+        PETSc.Sys.Print(f"DoF: {V.dim()}")
+
+    # Do a warm start and save the resulting tensor to prevent reallocation
+    # in future.
+    out = assemble(form)
+
+    # Do the main run.
+    if args.profiler == "petsc":
+        PETSc.Log.begin()
+
+        with PETSc.Log.Stage("Assemble"):
+            for _ in range(args.repeats):
+                assemble(form, tensor=out)
+
+        PETSc.Log.view(PETSc.Viewer.ASCII(args.fprof))
+    elif args.profiler == "cprofile":
+        pr = cProfile.Profile()
+        pr.enable()
+
+        for _ in range(args.repeats):
+            assemble(form, tensor=out)
+
+        pr.disable()
+        pstats.Stats(pr).dump_stats(args.fprof)
+    else:
+        raise AssertionError
+
+    # Write the output to a file.
+    dof = V.dim()
+    tottime = PETScLogParser(args.fprof).parse_stage_time("Assemble")
+
+    data = {
+        "form_type": args.form_type,
+        "mesh_type": args.mesh_type,
+        "mesh_size": args.mesh_size,
+        "degree": args.degree,
+        "repeats": args.repeats,
+        "fprof": args.fprof,
+        "n_cores": COMM_WORLD.Get_size(),
+        "dof": dof,
+        "tottime": tottime,
+    }
+    pd.DataFrame(data, index=[0]).to_csv(args.fout)
+
+if __name__ == "__main__":
+    args = parse_args()
+    assemble_form(args)
