@@ -22,17 +22,14 @@ def plot(args):
         dofs.append(float(df_.dof))
         times.append(float(df_.tottime / df_.repeats))
 
-    # test
-    print(1/((times[-1]-times[-3])/(dofs[-1]-dofs[-3])))
-
     plt.plot(dofs, times)
     plt.scatter(dofs, times, color="k", marker="x")
 
     plt.xlabel("DoF")
     plt.ylabel("Time (s)")
 
-    #plt.xscale("log")
-    #plt.yscale("log")
+    plt.xscale("log")
+    plt.yscale("log")
 
     plt.tight_layout()
     plt.savefig(args.fout)

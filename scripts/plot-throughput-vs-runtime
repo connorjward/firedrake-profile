@@ -1,0 +1,52 @@
+#! /usr/bin/env python
+
+import argparse
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+
+X_LIM = (1e-4, 1e0)
+Y_LIM = (1e3, 1e7)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("fin", type=str)
+    parser.add_argument("fout", type=str)
+    return parser.parse_args()
+
+def plot(args):
+    df = pd.read_table(args.fin, names=["fname"])
+
+    dofs = []
+    times = []
+    throughputs = []
+    for _, row in df.iterrows():
+        csv = pd.read_csv(row.fname)
+        dof = float(csv.dof)
+        time = float(csv.tottime / csv.repeats)
+        dofs.append(dof)
+        times.append(time)
+        throughputs.append(dof/time)
+
+    plt.plot(times, throughputs)
+    plt.scatter(times, throughputs, color="k", marker="x")
+
+    for time, throughput, dof in zip(times, throughputs, dofs):
+        plt.text(time, throughput, dof)
+
+    plt.xlabel("Time (s)")
+    plt.ylabel("Throughput (DoF/s)")
+    plt.xlim(X_LIM)
+    plt.ylim(Y_LIM)
+    plt.xscale("log")
+    plt.yscale("log")
+    plt.grid(which="both")
+    plt.tight_layout()
+    plt.savefig(args.fout)
+
+
+if __name__ == "__main__":
+    args = parse_args()
+    plot(args)
