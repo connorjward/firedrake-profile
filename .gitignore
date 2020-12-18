@@ -4,3 +4,7 @@
 /venv/
 
 __pycache__/
+
+/venv/
+*.vtu
+*.pvd

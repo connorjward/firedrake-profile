@@ -26,13 +26,10 @@ def plot(args):
 
     plt.plot(dofs, throughputs)
     plt.scatter(dofs, throughputs, color="k", marker="x")
-
     plt.xlabel("DoF")
     plt.ylabel("Throughput (DoF/s)")
-
     plt.xscale("log")
     plt.yscale("log")
-
     plt.tight_layout()
     plt.savefig(args.fout)
 
