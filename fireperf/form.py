@@ -2,7 +2,7 @@ from firedrake import *
 from functools import reduce
 
 
-FORM_TYPES = ["mass", "helmholtz"]
+FORM_TYPES = ["mass", "helmholtz", "poisson"]
 
 
 def make_form(form_type, V):
@@ -10,6 +10,8 @@ def make_form(form_type, V):
         return _mass(V)
     if form_type == "helmholtz":
         return _helmholtz(V)
+    if form_type == "poisson":
+        return _poisson(V)
     raise AssertionError()
 
 
@@ -25,14 +27,10 @@ def _helmholtz(V):
     return (dot(grad(u), grad(v)) + u * v) * dx
 
 
-def poissonS(p, q, mesh, nf=0):
-    V = FunctionSpace(mesh, "CG", p)
-    P = FunctionSpace(mesh, "CG", q)
+def _poisson(V):
     u = TrialFunction(V)
     v = TestFunction(V)
-    f = [Function(P).assign(1.0) for _ in range(nf)]
-    it = dot(grad(v), grad(u))
-    return reduce(inner, f + [it])*dx
+    return dot(grad(v), grad(u)) * dx
 
 
 def elasticity(p, q, mesh, nf=0):

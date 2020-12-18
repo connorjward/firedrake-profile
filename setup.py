@@ -14,4 +14,5 @@ setup(name="fireperf",
             "scripts/plot-throughput-vs-dof",
             "scripts/plot-runtime-vs-ncores",
             "scripts/plot-throughput-vs-ncores",
+            "scripts/plot-throughput-vs-runtime",
       ])
