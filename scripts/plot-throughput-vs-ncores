@@ -1,0 +1,44 @@
+#! /usr/bin/env python
+
+import argparse
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("fin", type=str)
+    parser.add_argument("fout", type=str)
+    return parser.parse_args()
+
+def plot(args):
+    df = pd.read_table(args.fin, names=["fname"])
+
+    n_coress = []
+    dofs = []
+    times = []
+    for _, row in df.iterrows():
+        df_ = pd.read_csv(row.fname)
+        n_coress.append(df_.n_cores)
+        dofs.append(float(df_.dof))
+        times.append(float(df_.tottime / df_.repeats))
+
+    throughputs = [dof/time for dof, time in zip(dofs, times)]
+
+    plt.plot(n_coress, throughputs)
+    plt.scatter(n_coress, throughputs, color="k", marker="x")
+
+    plt.xlabel("# cores")
+    plt.ylabel("Throughput (DoF/s)")
+
+    plt.xscale("log")
+    plt.yscale("log")
+
+    plt.tight_layout()
+    plt.savefig(args.fout)
+
+
+if __name__ == "__main__":
+    args = parse_args()
+    plot(args)

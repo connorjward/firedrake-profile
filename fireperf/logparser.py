@@ -4,26 +4,27 @@
 
 import re
 
-from firedrake import *
-from firedrake.petsc import PETSc
-#from mpi4py import MPI
-
 
 class Pattern:
     scientific_notation = r"\d+.\d+e[+-]\d+"
     percent = r"\d+.\d+%"
 
 
-class LogParser:
+class PETScLogParser:
 
-    def __init__(self, fname):
-        with open(fname) as f:
+    def __init__(self, flog):
+        with open(flog) as f:
             self._text = f.read()
 
-        self._stages = []
+
+    def parse_stage_time(self, stage_name):
+        for stage in self._parse_stages():
+            if stage["name"] == stage_name:
+                return float(stage["time"])
+        raise KeyError
 
 
-    def parse_stages(self):
+    def _parse_stages(self):
         """
         Return a list of matches corresponding to the 'Summary of Stages'
         section of the PETSc log output.
@@ -39,20 +40,4 @@ class LogParser:
 
         matches = re.finditer("".join(patterns), self._text)
 
-        self._stages = [match.groupdict() for match in matches]
-
-    
-    def get_stage_time(self, stage_name):
-        for stage in self._stages:
-            if stage["name"] == stage_name:
-                return float(stage["time"])
-        raise KeyError
-
-
-def parse_stage_times(stage_name, fnames):
-    times = []
-    for fname in fnames:
-        parser = LogParser(fname)
-        parser.parse_stages()
-        times.append(parser.get_stage_time(stage_name))
-    return times
+        return [match.groupdict() for match in matches]

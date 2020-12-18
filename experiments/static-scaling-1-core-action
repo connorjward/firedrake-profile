@@ -1,0 +1,34 @@
+#! /usr/bin/env python
+
+import subprocess
+import tempfile
+
+import numpy as np
+
+
+FORM_TYPE = "helmholtz"
+MESH_TYPE = "tri"
+DEGREE = 1
+REPEATS = 20
+
+MESH_SIZES = np.logspace(1, 10, 10, base=2, dtype=np.int)
+
+
+# Do a warm start.
+with tempfile.TemporaryDirectory() as tmpdir:
+    cmd = ["assemble-form", FORM_TYPE, MESH_TYPE, "64",
+           str(DEGREE), str(REPEATS), "--use-action"]
+    print(" ".join(cmd))
+    subprocess.run(cmd, cwd=tmpdir, check=True)
+
+# Main run.
+for mesh_size in MESH_SIZES:
+    cmd = ["assemble-form", FORM_TYPE, MESH_TYPE, str(mesh_size),
+           str(DEGREE), str(REPEATS), "--use-action",
+           "-o1", f"{mesh_size}.csv", "-o2", f"{mesh_size}.out"]
+    print(" ".join(cmd))
+    subprocess.run(cmd, check=True)
+
+    # Save a list of the output files.
+    with open("files.txt", "a") as f:
+        f.write(f"{mesh_size}.csv\n")

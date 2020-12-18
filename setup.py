@@ -7,4 +7,11 @@ setup(name="fireperf",
       author="Connor Ward",
       author_email="c.ward20@imperial.ac.uk",
       packages=["fireperf"],
-      install_requires=["pandas"])
+      install_requires=["pandas"],
+      scripts=[
+            "scripts/assemble-form",
+            "scripts/plot-runtime-vs-dof",
+            "scripts/plot-throughput-vs-dof",
+            "scripts/plot-runtime-vs-ncores",
+            "scripts/plot-throughput-vs-ncores",
+      ])

@@ -1,9 +1,0 @@
-#! /usr/bin/env python
-
-from fireperf import experiments
-
-
-args = experiments.parse_plotting_args()
-
-experiments.plot_runtime_vs_dof(f"{args.output_dir}/runtime_vs_dof.png", args.metadata_filename)
-experiments.plot_throughput_vs_dof(f"{args.output_dir}/throughput_vs_dof.png", args.metadata_filename)
