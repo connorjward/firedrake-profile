@@ -56,11 +56,10 @@ solver_params = {
 #=================;
 #  Solve problem  ;
 #=================;
-A = assemble(a, bcs=bcs)
-b = assemble(L)
 initialTime = time.time()
-solve(A, u_h, b, solver_parameters=solver_params)
-TotalTime = time.time() - initialTime
+for _ in range(20):
+  solve(a == L, u_h, bcs, solver_parameters=solver_params)
+TotalTime = (time.time() - initialTime) / 20
 
 #================;
 #  Compute info  ;

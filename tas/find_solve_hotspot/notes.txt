@@ -1,0 +1,4 @@
+The idea of this experiment is to run the code both very much in (16) and very much out (256) of the strong scaling limit.
+The hotspots should change between the two and clearly point to the culprit.
+
+It appears as though most of the overhead comes from the form_function() call in solving_utils().
