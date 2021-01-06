@@ -1,4 +1,5 @@
 from firedrake import *
+from firedrake.petsc import PETSc
 from mpi4py import MPI
 import math,sys,time
 import numpy as np
@@ -56,10 +57,12 @@ solver_params = {
 #=================;
 #  Solve problem  ;
 #=================;
+PETSc.Log.begin()
 initialTime = time.time()
-for _ in range(100):
+for _ in range(1000):
   solve(a == L, u_h, bcs, solver_parameters=solver_params)
-TotalTime = (time.time() - initialTime) / 100
+TotalTime = (time.time() - initialTime) / 1000
+PETSc.Log.view()
 
 #================;
 #  Compute info  ;

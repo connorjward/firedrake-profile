@@ -57,9 +57,9 @@ solver_params = {
 #  Solve problem  ;
 #=================;
 initialTime = time.time()
-for _ in range(100):
+for _ in range(15):
   solve(a == L, u_h, bcs, solver_parameters=solver_params)
-TotalTime = (time.time() - initialTime) / 100
+TotalTime = (time.time() - initialTime) / 15
 
 #================;
 #  Compute info  ;

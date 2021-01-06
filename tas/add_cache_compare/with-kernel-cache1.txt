@@ -1,0 +1,1178 @@
+  Linear firedrake_0_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_1_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_2_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_3_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_4_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_5_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_6_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_7_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_8_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_9_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_10_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_11_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_12_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_13_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_14_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_15_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_16_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_17_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_18_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_19_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_20_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_21_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_22_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_23_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_24_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_25_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_26_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_27_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_28_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_29_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_30_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_31_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_32_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_33_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_34_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_35_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_36_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_37_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_38_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_39_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_40_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_41_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_42_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_43_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_44_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_45_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_46_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_47_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_48_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_49_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_50_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_51_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_52_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_53_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_54_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_55_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_56_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_57_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_58_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_59_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_60_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_61_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_62_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_63_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_64_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_65_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_66_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_67_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_68_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_69_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_70_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_71_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_72_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_73_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_74_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_75_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_76_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_77_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_78_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_79_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_80_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_81_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_82_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_83_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_84_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_85_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_86_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_87_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_88_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_89_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_90_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_91_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_92_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_93_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_94_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_95_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_96_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_97_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_98_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_99_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_100_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_101_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_102_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_103_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_104_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_105_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_106_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_107_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_108_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_109_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_110_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_111_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_112_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_113_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_114_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_115_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_116_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_117_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_118_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_119_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_120_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_121_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_122_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_123_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_124_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_125_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_126_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_127_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_128_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_129_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_130_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_131_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_132_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_133_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_134_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_135_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_136_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_137_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_138_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_139_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_140_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_141_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_142_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_143_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_144_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_145_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_146_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_147_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_148_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_149_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_150_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_151_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_152_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_153_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_154_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_155_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_156_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_157_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_158_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_159_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_160_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_161_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_162_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_163_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_164_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_165_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_166_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_167_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_168_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_169_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_170_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_171_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_172_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_173_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_174_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_175_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_176_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_177_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_178_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_179_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_180_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_181_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_182_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_183_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_184_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_185_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_186_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_187_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_188_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_189_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_190_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_191_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_192_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_193_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_194_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_195_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_196_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_197_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_198_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_199_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_200_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_201_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_202_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_203_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_204_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_205_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_206_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_207_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_208_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_209_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_210_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_211_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_212_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_213_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_214_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_215_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_216_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_217_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_218_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_219_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_220_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_221_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_222_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_223_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_224_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_225_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_226_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_227_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_228_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_229_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_230_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_231_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_232_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_233_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_234_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_235_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_236_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_237_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_238_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_239_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_240_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_241_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_242_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_243_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_244_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_245_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_246_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_247_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_248_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_249_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_250_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_251_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_252_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_253_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_254_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_255_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_256_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_257_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_258_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_259_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_260_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_261_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_262_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_263_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_264_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_265_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_266_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_267_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_268_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_269_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_270_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_271_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_272_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_273_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_274_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_275_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_276_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_277_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_278_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_279_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_280_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_281_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_282_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_283_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_284_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_285_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_286_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_287_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_288_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_289_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_290_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_291_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_292_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_293_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_294_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_295_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_296_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_297_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_298_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_299_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_300_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_301_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_302_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_303_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_304_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_305_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_306_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_307_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_308_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_309_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_310_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_311_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_312_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_313_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_314_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_315_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_316_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_317_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_318_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_319_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_320_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_321_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_322_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_323_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_324_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_325_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_326_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_327_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_328_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_329_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_330_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_331_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_332_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_333_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_334_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_335_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_336_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_337_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_338_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_339_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_340_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_341_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_342_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_343_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_344_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_345_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_346_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_347_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_348_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_349_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_350_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_351_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_352_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_353_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_354_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_355_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_356_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_357_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_358_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_359_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_360_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_361_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_362_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_363_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_364_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_365_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_366_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_367_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_368_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_369_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_370_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_371_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_372_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_373_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_374_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_375_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_376_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_377_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_378_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_379_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_380_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_381_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_382_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_383_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_384_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_385_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_386_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_387_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_388_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_389_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_390_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_391_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_392_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_393_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_394_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_395_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_396_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_397_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_398_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_399_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_400_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_401_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_402_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_403_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_404_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_405_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_406_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_407_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_408_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_409_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_410_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_411_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_412_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_413_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_414_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_415_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_416_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_417_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_418_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_419_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_420_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_421_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_422_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_423_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_424_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_425_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_426_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_427_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_428_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_429_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_430_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_431_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_432_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_433_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_434_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_435_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_436_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_437_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_438_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_439_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_440_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_441_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_442_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_443_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_444_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_445_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_446_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_447_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_448_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_449_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_450_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_451_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_452_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_453_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_454_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_455_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_456_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_457_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_458_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_459_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_460_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_461_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_462_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_463_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_464_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_465_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_466_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_467_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_468_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_469_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_470_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_471_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_472_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_473_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_474_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_475_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_476_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_477_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_478_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_479_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_480_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_481_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_482_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_483_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_484_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_485_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_486_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_487_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_488_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_489_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_490_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_491_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_492_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_493_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_494_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_495_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_496_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_497_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_498_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_499_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_500_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_501_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_502_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_503_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_504_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_505_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_506_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_507_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_508_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_509_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_510_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_511_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_512_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_513_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_514_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_515_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_516_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_517_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_518_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_519_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_520_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_521_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_522_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_523_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_524_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_525_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_526_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_527_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_528_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_529_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_530_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_531_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_532_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_533_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_534_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_535_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_536_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_537_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_538_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_539_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_540_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_541_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_542_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_543_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_544_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_545_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_546_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_547_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_548_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_549_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_550_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_551_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_552_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_553_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_554_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_555_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_556_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_557_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_558_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_559_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_560_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_561_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_562_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_563_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_564_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_565_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_566_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_567_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_568_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_569_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_570_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_571_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_572_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_573_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_574_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_575_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_576_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_577_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_578_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_579_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_580_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_581_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_582_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_583_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_584_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_585_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_586_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_587_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_588_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_589_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_590_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_591_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_592_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_593_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_594_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_595_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_596_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_597_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_598_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_599_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_600_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_601_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_602_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_603_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_604_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_605_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_606_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_607_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_608_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_609_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_610_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_611_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_612_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_613_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_614_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_615_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_616_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_617_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_618_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_619_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_620_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_621_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_622_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_623_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_624_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_625_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_626_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_627_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_628_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_629_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_630_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_631_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_632_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_633_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_634_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_635_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_636_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_637_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_638_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_639_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_640_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_641_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_642_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_643_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_644_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_645_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_646_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_647_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_648_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_649_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_650_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_651_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_652_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_653_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_654_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_655_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_656_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_657_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_658_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_659_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_660_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_661_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_662_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_663_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_664_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_665_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_666_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_667_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_668_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_669_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_670_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_671_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_672_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_673_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_674_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_675_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_676_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_677_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_678_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_679_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_680_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_681_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_682_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_683_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_684_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_685_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_686_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_687_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_688_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_689_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_690_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_691_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_692_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_693_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_694_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_695_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_696_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_697_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_698_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_699_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_700_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_701_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_702_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_703_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_704_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_705_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_706_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_707_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_708_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_709_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_710_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_711_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_712_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_713_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_714_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_715_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_716_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_717_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_718_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_719_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_720_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_721_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_722_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_723_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_724_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_725_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_726_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_727_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_728_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_729_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_730_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_731_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_732_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_733_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_734_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_735_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_736_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_737_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_738_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_739_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_740_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_741_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_742_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_743_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_744_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_745_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_746_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_747_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_748_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_749_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_750_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_751_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_752_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_753_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_754_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_755_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_756_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_757_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_758_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_759_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_760_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_761_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_762_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_763_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_764_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_765_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_766_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_767_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_768_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_769_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_770_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_771_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_772_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_773_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_774_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_775_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_776_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_777_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_778_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_779_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_780_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_781_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_782_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_783_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_784_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_785_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_786_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_787_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_788_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_789_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_790_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_791_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_792_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_793_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_794_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_795_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_796_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_797_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_798_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_799_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_800_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_801_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_802_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_803_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_804_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_805_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_806_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_807_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_808_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_809_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_810_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_811_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_812_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_813_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_814_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_815_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_816_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_817_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_818_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_819_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_820_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_821_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_822_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_823_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_824_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_825_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_826_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_827_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_828_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_829_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_830_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_831_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_832_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_833_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_834_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_835_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_836_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_837_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_838_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_839_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_840_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_841_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_842_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_843_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_844_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_845_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_846_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_847_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_848_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_849_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_850_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_851_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_852_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_853_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_854_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_855_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_856_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_857_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_858_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_859_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_860_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_861_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_862_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_863_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_864_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_865_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_866_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_867_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_868_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_869_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_870_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_871_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_872_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_873_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_874_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_875_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_876_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_877_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_878_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_879_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_880_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_881_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_882_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_883_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_884_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_885_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_886_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_887_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_888_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_889_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_890_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_891_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_892_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_893_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_894_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_895_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_896_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_897_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_898_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_899_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_900_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_901_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_902_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_903_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_904_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_905_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_906_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_907_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_908_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_909_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_910_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_911_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_912_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_913_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_914_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_915_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_916_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_917_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_918_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_919_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_920_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_921_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_922_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_923_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_924_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_925_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_926_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_927_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_928_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_929_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_930_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_931_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_932_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_933_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_934_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_935_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_936_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_937_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_938_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_939_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_940_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_941_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_942_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_943_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_944_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_945_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_946_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_947_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_948_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_949_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_950_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_951_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_952_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_953_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_954_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_955_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_956_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_957_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_958_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_959_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_960_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_961_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_962_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_963_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_964_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_965_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_966_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_967_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_968_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_969_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_970_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_971_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_972_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_973_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_974_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_975_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_976_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_977_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_978_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_979_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_980_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_981_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_982_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_983_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_984_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_985_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_986_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_987_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_988_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_989_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_990_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_991_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_992_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_993_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_994_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_995_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_996_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_997_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_998_ solve converged due to CONVERGED_RTOL iterations 4
+  Linear firedrake_999_ solve converged due to CONVERGED_RTOL iterations 4
+************************************************************************************************************************
+***             WIDEN YOUR WINDOW TO 120 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document            ***
+************************************************************************************************************************
+
+---------------------------------------------- PETSc Performance Summary: ----------------------------------------------
+
+solve.py on a default named thinky with 1 processor, by connor Wed Jan  6 10:15:59 2021
+Using Petsc Development GIT revision: v3.4.2-33053-ge85aaad7c1  GIT Date: 2020-10-09 10:20:17 +0100
+
+                         Max       Max/Min     Avg       Total
+Time (sec):           2.238e+01     1.000   2.238e+01
+Objects:              1.513e+04     1.000   1.513e+04
+Flop:                 3.207e+07     1.000   3.207e+07  3.207e+07
+Flop/sec:             1.433e+06     1.000   1.433e+06  1.433e+06
+MPI Messages:         0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Message Lengths:  0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Reductions:       0.000e+00     0.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flop
+                            and VecAXPY() for complex vectors of length N --> 8N flop
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total
+ 0:      Main Stage: 4.9142e+00  22.0%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0%
+ 1:  Define Problem: 2.4838e+00  11.1%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0%
+ 2:   Define Solver: 9.4454e+00  42.2%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0%
+ 3:           Solve: 5.5379e+00  24.7%  3.2070e+07 100.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0%
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+------------------------------------------------------------------------------------------------------------------------
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s
+------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+
+--- Event Stage 1: Define Problem
+
+
+--- Event Stage 2: Define Solver
+
+BuildTwoSided          1 1.0 1.1206e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+BuildTwoSidedF         1 1.0 1.6451e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet              1000 1.0 1.9643e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatAssemblyBegin    1001 1.0 2.5320e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatAssemblyEnd      1001 1.0 1.6249e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+CreateSparsity         1 1.0 9.4461e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatZeroInitial      1000 1.0 3.9187e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   4  0  0  0  0     0
+
+--- Event Stage 3: Solve
+
+VecTDot             8000 1.0 3.3886e-03 1.0 4.62e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0 14  0  0  0   0 14  0  0  0  1362
+VecNorm             5000 1.0 9.1519e-03 1.0 2.88e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  9  0  0  0   0  9  0  0  0   315
+VecCopy             6000 1.0 1.0997e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet             10000 1.0 6.6552e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecAXPY             9000 1.0 5.4574e-03 1.0 5.20e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0 16  0  0  0   0 16  0  0  0   953
+VecAYPX             3000 1.0 1.3532e-02 1.0 1.73e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  5  0  0  0   0  5  0  0  0   128
+MatMult             4000 1.0 1.7061e-02 1.0 1.40e+07 1.0 0.0e+00 0.0e+00 0.0e+00  0 44  0  0  0   0 44  0  0  0   818
+MatConvert          1000 1.0 1.0708e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatAssemblyBegin    6000 1.0 1.9135e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatAssemblyEnd      6000 1.0 5.0483e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0
+MatGetRowIJ         1000 1.0 5.2142e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatZeroEntries      1000 1.0 1.7242e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+PCSetUp             1000 1.0 8.5111e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  4  0  0  0  0  15  0  0  0  0     0
+PCApply             5000 1.0 4.0775e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   7  0  0  0  0     0
+KSPSetUp            1000 1.0 3.2050e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0
+KSPSolve            1000 1.0 1.7466e+00 1.0 2.78e+07 1.0 0.0e+00 0.0e+00 0.0e+00  8 87  0  0  0  32 87  0  0  0    16
+SNESSolve           1000 1.0 4.5196e+00 1.0 3.21e+07 1.0 0.0e+00 0.0e+00 0.0e+00 20100  0  0  0  82100  0  0  0     7
+SNESSetUp           1000 1.0 6.3539e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+SNESFunctionEval    1000 1.0 8.7891e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  4  0  0  0  0  16  0  0  0  0     0
+SNESJacobianEval    1000 1.0 1.8345e+00 1.0 3.68e+06 1.0 0.0e+00 0.0e+00 0.0e+00  8 11  0  0  0  33 11  0  0  0     2
+ParLoopExecute      6000 1.0 1.4025e+00 1.0 3.68e+06 1.0 0.0e+00 0.0e+00 0.0e+00  6 11  0  0  0  25 11  0  0  0     3
+ParLoop_Cells_wrap_expression_kernel    2000 1.0 7.6957e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0
+ApplyBC             1000 1.0 5.9246e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  3  0  0  0  0  11  0  0  0  0     0
+ParLoop_set_#x7fa26f535940_wrap_copy    2000 1.0 3.6029e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0
+ParLoop_set_#x7fa26f535940_wrap_zero    4000 1.0 8.2782e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0
+ParLoop_Cells_wrap_form0_cell_integral_otherwise    2000 1.0 6.6429e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   1  0  0  0  0     0
+ParLoop_Cells_wrap_form00_cell_integral_otherwise    2000 1.0 3.4042e-01 1.0 3.68e+06 1.0 0.0e+00 0.0e+00 0.0e+00  2 11  0  0  0   6 11  0  0  0    11
+------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+           Container     2              1          576     0.
+              Viewer     1              0            0     0.
+           Index Set    43             31        33968     0.
+   IS L to G Mapping     0           2000      3656000     0.
+             Section    17              6         4272     0.
+   Star Forest Graph    16              9         8928     0.
+              Vector     5           4000     15520000     0.
+              Matrix     2           1001      2906848     0.
+      Preconditioner     0           1000      1448000     0.
+       Krylov Solver     0           1000      1480000     0.
+                SNES     0           1000      1404000     0.
+    GraphPartitioner     2              1          660     0.
+    Distributed Mesh     8              2        22792     0.
+            DM Label    15              4         2528     0.
+     Discrete System    10              4         3808     0.
+
+--- Event Stage 1: Define Problem
+
+              Vector     0             57        89376     0.
+              Matrix     0             57      1804164     0.
+
+--- Event Stage 2: Define Solver
+
+              Viewer     1              0            0     0.
+           Index Set     1              0            0     0.
+   IS L to G Mapping     1              0            0     0.
+   Star Forest Graph     2              1          992     0.
+              Vector  2000            862      1351616     0.
+              Matrix  1001            943     29819072     0.
+      Preconditioner  1000              0            0     0.
+       Krylov Solver  1000              0            0     0.
+                SNES  1000              0            0     0.
+              DMSNES     1              0            0     0.
+    Distributed Mesh     1              0            0     0.
+     Discrete System     1              0            0     0.
+
+--- Event Stage 3: Solve
+
+   IS L to G Mapping  2000              0            0     0.
+              Vector  6000           2999      7268120     0.
+              Matrix  1000              0            0     0.
+     DMKSP interface     1              0            0     0.
+========================================================================================================================
+Average time to get PetscTime(): 4.76837e-08
+#No PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: PETSC_DIR=/home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc PETSC_ARCH=default --download-ml --with-fortran-bindings=0 --download-pnetcdf --download-hypre --download-hwloc --download-chaco --with-zlib --with-shared-libraries=1 --download-pastix --download-netcdf --download-mpich --with-c2html=0 --download-superlu_dist --download-mumps --with-cxx-dialect=C++11 --download-ptscotch --download-eigen="/home/connor/projects/improve-firedrake-scaling/firedrake/src/eigen-3.3.3.tgz " --download-scalapack --download-metis --with-debugging=0 --download-hdf5 --download-suitesparse
+-----------------------------------------
+Libraries compiled on 2020-12-20 00:13:45 on thinky 
+Machine characteristics: Linux-4.19.128-microsoft-standard-x86_64-with-glibc2.29
+Using PETSc directory: /home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc
+Using PETSc arch: default
+-----------------------------------------
+
+Using C compiler: /home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/bin/mpicc  -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -fstack-protector -fvisibility=hidden -g -O   
+Using Fortran compiler: /home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/bin/mpif90  -Wall -ffree-line-length-0 -Wno-unused-dummy-argument -g -O    
+-----------------------------------------
+
+Using include paths: -I/home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/include -I/home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/include -I/home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/include/eigen3
+-----------------------------------------
+
+Using C linker: /home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/bin/mpicc
+Using Fortran linker: /home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/bin/mpif90
+Using libraries: -Wl,-rpath,/home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/lib -L/home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/lib -lpetsc -Wl,-rpath,/home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/lib -L/home/connor/projects/improve-firedrake-scaling/firedrake/src/petsc/default/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9 -Wl,-rpath,/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -Wl,-rpath,/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -lHYPRE -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lscalapack -lpastix -lumfpack -lklu -lcholmod -lbtf -lccolamd -lcolamd -lcamd -lamd -lsuitesparseconfig -lsuperlu_dist -lml -llapack -lblas -lptesmumps -lptscotchparmetis -lptscotch -lptscotcherr -lesmumps -lscotch -lscotcherr -lpthread -lhwloc -lnetcdf -lpnetcdf -lhdf5hl_fortran -lhdf5_fortran -lhdf5_hl -lhdf5 -lchaco -lmetis -lm -lz -lstdc++ -ldl -lmpifort -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lrt -lm -lrt -lstdc++ -ldl
+-----------------------------------------
+
+Discretization: CG1 on 1 MPI processes
+	Degrees-of-freedom: 289
+	Wall-clock time:  1.774e-02 seconds
+	L2 error norm: 3.476e-02
+	Digits of accuracy:  1.459e+00
+	DoA/s:  8.222e+01
+	DoF/s:  1.629e+04
